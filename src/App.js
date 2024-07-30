@@ -1,15 +1,10 @@
+import "./App.css";
 
-import './App.css';
-import { About, Home, Services ,Blogs,Contact} from './pages';
-
+import AppRoutes from '../src/Routes/AppRoutes';
 function App() {
   return (
     <div className="App">
-    <Home/>
-    <Services/>
-    <About/>
-    <Blogs/>
-    <Contact/>
+      <AppRoutes />
     </div>
   );
 }
